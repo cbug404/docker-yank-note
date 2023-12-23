@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/3.4/menu">
+<menu id="root-menu" label="MENU">
+<item label="yarn-note" icon="/usr/share/icons/hicolor/48x48/apps/yank-note.png"><action name="Execute"><command>/usr/bin/yank-note</command></action></item>
+<item label="terminal" icon="/usr/share/icons/gnome/48x48/apps/gnome-terminal.png"><action name="Execute"><command>/usr/bin/gnome-terminal</command></action></item>
+</menu>
+</openbox_menu>
+
