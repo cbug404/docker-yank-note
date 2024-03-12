@@ -16,7 +16,7 @@ docker run --restart=unless-stopped --name=yank-note \
     --security-opt seccomp=unconfined \
     -e PUID=1000 -e PGID=1000 -e TZ=Asia/Shanghai \
     -e PASSWORD=cbug404 -p 3045:3045 -p 8180:8180 \
-    -v yank-note:/config \
+    -v /docker/yank-note:/config \
     cbug404/docker-yank-note:latest
 ```
 
