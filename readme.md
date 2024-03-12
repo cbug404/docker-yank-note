@@ -12,8 +12,8 @@ docker构建的基本思路：
 * /config是数据目录
 
 ```bash
-docker run --restart=unless-stopped --name=yank-note \
-    --security-opt seccomp=unconfined \
+docker run -d --name=yank-note \
+    --restart=unless-stopped --security-opt seccomp=unconfined \
     -e PUID=1000 -e PGID=1000 -e TZ=Asia/Shanghai \
     -e PASSWORD=cbug404 -p 3045:3045 -p 8180:8180 \
     -v /docker/yank-note:/config \
