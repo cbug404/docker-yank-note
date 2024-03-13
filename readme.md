@@ -2,7 +2,7 @@
 [yank-note](https://github.com/purocean/yn)，是一款好用的笔记软件，推荐使用
 
 docker构建的基本思路：
-* vnc+novnc访问原生界面
+* kasmvnc（类似vnc+novnc）访问原生界面
 * 通过nginx反向代理加授权为原生程序的web加一道权限
 
 ## 运行
