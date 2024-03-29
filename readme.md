@@ -1,4 +1,5 @@
 # yank-note笔记的docker
+
 [yank-note](https://github.com/purocean/yn)，是一款好用的笔记软件，推荐使用
 
 docker构建的基本思路：
@@ -36,6 +37,10 @@ docker run -d --name=yank-note \
 ## 移动端
 
 移动端没有很好的客户端，可以使用[gitjournal](https://github.com/GitJournal/GitJournal)临时凑合用，可以直接连接git相关地址，查看里面的文档
+
+## 项目状态
+
+![Alt](https://repobeats.axiom.co/api/embed/39875e74764a386af58cb9bafa73c27bbfba8e0a.svg "Repobeats analytics image")
 
 ## 获取帮助和支持
 更多视频的使用说明关注公众号`程序员派对`，回复：`yank-note`来获取
